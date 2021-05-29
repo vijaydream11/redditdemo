@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Health</string>
+    <string name="app_name">RedditDemo</string>
 
     <string name="preference_name">Preference Name</string>
 

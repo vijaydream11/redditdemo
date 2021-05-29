@@ -4,10 +4,9 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import androidx.activity.viewModels
 import com.jmfinancial.redditdemo.R
 import com.jmfinancial.redditdemo.presentation.base.BaseActivity
-import com.jmfinancial.redditdemo.presentation.base.LoginPresenter
+import com.jmfinancial.redditdemo.presentation.base.HomePresenter
 import com.jmfinancial.redditdemo.presentation.utils.Navigator
 
 
@@ -15,14 +14,7 @@ import com.jmfinancial.redditdemo.presentation.utils.Navigator
  * Created by Vijay on 28/5/21.
  */
 
-class SplashActivity : BaseActivity(), View.OnClickListener {
-
-    val mLoginPresenter: LoginPresenter by lazy {
-        LoginPresenter()
-    }
-    var mobileNum = ""
-    var mTermsAndConditionSelected = false
-
+class SplashActivity : BaseActivity() {
 
     companion object {
         fun getCallingIntent(context: Context): Intent {
@@ -35,15 +27,8 @@ class SplashActivity : BaseActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        Navigator.navigateToLogin(this)
+        Navigator.navigateToHome(this)
 
     }
-
-    override fun onClick(view: View?) {
-        when (view?.id) {
-
-        }
-    }
-
 
 }

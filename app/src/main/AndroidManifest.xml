@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jmfinancial.redditdemo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name="com.jmfinancial.redditdemo.RedditDemoApplication"
         android:allowBackup="true"
@@ -12,7 +14,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.jmfinancial.redditdemo.presentation.login.LoginActivity"
+            android:name="com.jmfinancial.redditdemo.presentation.login.HomeActivity"
             android:screenOrientation="portrait" />
 
         <activity

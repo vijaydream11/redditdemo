@@ -21,12 +21,11 @@ class ApiService {
 
     companion object {
 
-        val BASE_URL = "http://api.mype.social/api/"
-
+        val BASE_URL = "https://www.reddit.com/"
 
         var apiService: ApiService? = null
         private var retrofit: Retrofit? = null
-        var services: CustomerService?= null
+        var services: CustomerService? = null
 
         fun getInstance(): ApiService? {
 
