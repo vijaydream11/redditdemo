@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FontStyle">
+        <attr name="fontview" format="enum">
+            <enum name="poppinsregular" value="0" />
+            <enum name="poppinsmedium" value="1" />
+            <enum name="poppinsbold" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

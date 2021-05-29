@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Health</string>
+
+    <string name="preference_name">Preference Name</string>
+
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">close</string>
+
+
+</resources>
