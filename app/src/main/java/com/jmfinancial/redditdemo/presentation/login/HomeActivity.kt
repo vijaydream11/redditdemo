@@ -2,13 +2,16 @@ package com.jmfinancial.redditdemo.presentation.login
 
 import android.content.Context
 import android.content.Intent
+import android.content.Intent.FLAG_ACTIVITY_CLEAR_TASK
+import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.core.content.IntentCompat
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.jmfinancial.redditdemo.presentation.base.HomePresenter
 import com.jmfinancial.redditdemo.R
 import com.jmfinancial.redditdemo.presentation.base.BaseActivity
+import com.jmfinancial.redditdemo.presentation.base.HomePresenter
 import com.jmfinancial.redditdemo.presentation.login.model.RedditPost
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -26,6 +29,10 @@ class HomeActivity : BaseActivity(), View.OnClickListener, HomeView {
     companion object {
         fun getCallingIntent(context: Context): Intent {
             val intent = Intent(context, HomeActivity::class.java)
+            intent.addFlags(
+                FLAG_ACTIVITY_NEW_TASK or
+                        FLAG_ACTIVITY_CLEAR_TASK
+            )
             return intent
         }
     }

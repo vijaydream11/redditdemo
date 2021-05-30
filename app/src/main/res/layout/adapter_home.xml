@@ -32,7 +32,7 @@
                 android:layout_margin="5dp"
                 android:padding="10dp"
                 android:textColor="@color/black"
-                android:textSize="14sp"
+                android:textSize="16sp"
                 android:textStyle="italic"
                 app:layout_constraintBottom_toTopOf="@+id/imgUpvote"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -47,7 +47,20 @@
                 android:src="@color/teal_700"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/txtVote"
                 app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+            <TextView
+                android:id="@+id/txtVote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Vote"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgUpvote"
+                app:layout_constraintLeft_toRightOf="@+id/imgUpvote"
+                app:layout_constraintRight_toLeftOf="@+id/imgDownvote" />
 
             <ImageView
                 android:id="@+id/imgDownvote"
@@ -55,9 +68,10 @@
                 android:layout_height="48dp"
                 android:layout_margin="10dp"
                 android:src="@color/teal_700"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toRightOf="@+id/imgUpvote"
-                app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+                app:layout_constraintBottom_toBottomOf="@id/txtVote"
+                app:layout_constraintLeft_toRightOf="@+id/txtVote"
+                app:layout_constraintTop_toBottomOf="@+id/txtVote"
+                app:layout_constraintTop_toTopOf="@+id/imgUpvote" />
 
             <ImageView
                 android:id="@+id/imgComment"
@@ -65,9 +79,10 @@
                 android:layout_height="48dp"
                 android:layout_margin="10dp"
                 android:src="@color/teal_200"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/imgUpvote"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+                app:layout_constraintTop_toTopOf="@+id/imgUpvote" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

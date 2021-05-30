@@ -35,7 +35,7 @@ class ChildrenData {
     @Expose
     val title: String? = null
 
-    @SerializedName("thumbnail")
+    @SerializedName("url")
     @Expose
     val thumbnail: String? = null
 
