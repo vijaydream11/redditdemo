@@ -1,6 +1,5 @@
 package com.jmfinancial.redditdemo.presentation.login.model
 
-import android.os.Parcelable
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
@@ -42,5 +41,9 @@ class ChildrenData {
     @SerializedName("id")
     @Expose
     val commentId: String? = null
+
+    @SerializedName("name")
+    @Expose
+    val name: String? = null
 
 }

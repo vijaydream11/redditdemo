@@ -13,7 +13,8 @@ import com.jmfinancial.redditdemo.presentation.utils.loadImage
 
 class HomeAdapter(
     val mContext: Context,
-    val mListChildren: List<Children>
+    val mListChildren: List<Children>,
+    val mIHomeHandler: IHomeHandler
 ) : RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
@@ -34,6 +35,20 @@ class HomeAdapter(
 
         val imgPost = itemView.findViewById<ImageView>(R.id.imgPost)
         val txtTitle = itemView.findViewById<TextView>(R.id.txtTitle)
+        val imgUpvote = itemView.findViewById<ImageView>(R.id.imgUpvote)
+        val imgDownvote = itemView.findViewById<ImageView>(R.id.imgDownvote)
+
+        init {
+
+            imgUpvote.setOnClickListener {
+                mIHomeHandler.onUpVote(mListChildren.get(adapterPosition).childrenData?.name)
+            }
+
+            imgDownvote.setOnClickListener {
+                mIHomeHandler.onDownVote(mListChildren.get(adapterPosition).childrenData?.name)
+            }
+
+        }
 
 
         fun bind(position: Int) {
@@ -46,6 +61,11 @@ class HomeAdapter(
 
         }
 
+    }
+
+    interface IHomeHandler {
+        fun onUpVote(name: String?)
+        fun onDownVote(name: String?)
     }
 
 }

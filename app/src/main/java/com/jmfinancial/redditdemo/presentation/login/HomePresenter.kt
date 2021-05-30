@@ -22,10 +22,31 @@ class HomePresenter(val mHomeView: HomeView) : BasePresenter() {
                     mHomeView.hideLoading()
                 }
                 ?.subscribe({
-                    mHomeView.onSuccess(it)
+                    mHomeView.onGetAllPostSuccess(it)
                 }, {
-                    mHomeView.onFailure(it)
+                    mHomeView.onGetAllPostFailure(it)
                 })
+        )
+    }
+
+    fun onVoteClicked(name: String?, direction: Int) {
+        mCompositeDisposable?.add(
+            name?.let {
+                mCustomerService?.userVote(name, direction)
+                    ?.subscribeOn(Schedulers.io())
+                    ?.observeOn(AndroidSchedulers.mainThread())
+                    ?.doOnSubscribe {
+                        mHomeView.showLoading()
+                    }
+                    ?.doOnError {
+                        mHomeView.hideLoading()
+                    }
+                    ?.subscribe({
+                        mHomeView.onVoteSuccess(it)
+                    }, {
+                        mHomeView.onVoteFailure(it)
+                    })
+            }
         )
     }
 

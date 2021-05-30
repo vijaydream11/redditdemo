@@ -6,5 +6,9 @@
     <string name="open_drawer">Open</string>
     <string name="close_drawer">close</string>
 
+    <string name="error_sign_in">SignIn required</string>
+
+
+
 
 </resources>
