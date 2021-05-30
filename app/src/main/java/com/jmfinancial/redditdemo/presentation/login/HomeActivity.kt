@@ -29,10 +29,7 @@ class HomeActivity : BaseActivity(), View.OnClickListener, HomeView {
     companion object {
         fun getCallingIntent(context: Context): Intent {
             val intent = Intent(context, HomeActivity::class.java)
-            intent.addFlags(
-                FLAG_ACTIVITY_NEW_TASK or
-                        FLAG_ACTIVITY_CLEAR_TASK
-            )
+            intent.addFlags(FLAG_ACTIVITY_NEW_TASK or FLAG_ACTIVITY_CLEAR_TASK)
             return intent
         }
     }
@@ -57,7 +54,6 @@ class HomeActivity : BaseActivity(), View.OnClickListener, HomeView {
     }
 
     override fun onSuccess(it: RedditPost) {
-        Log.d("VIJAY------", "onSuccess" + it)
         hideProgress()
         val linearLayoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvRedditPost.layoutManager = linearLayoutManager
@@ -68,7 +64,6 @@ class HomeActivity : BaseActivity(), View.OnClickListener, HomeView {
 
     override fun onFailure(it: Throwable) {
         hideProgress()
-        Log.d("VIJAY------", "onFailure")
     }
 
     override fun showLoading() {

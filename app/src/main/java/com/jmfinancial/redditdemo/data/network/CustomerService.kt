@@ -14,4 +14,7 @@ interface CustomerService {
     @GET("r/all/hot/.json")
     fun getAllPost(): Observable<RedditPost>
 
+    @GET("comments/{id}/.json")
+    fun getAllComments(@Query("id") id: String): Observable<RedditPost>
+
 }

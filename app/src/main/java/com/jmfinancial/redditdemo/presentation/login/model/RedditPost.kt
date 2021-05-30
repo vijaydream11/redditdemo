@@ -39,4 +39,8 @@ class ChildrenData {
     @Expose
     val thumbnail: String? = null
 
+    @SerializedName("id")
+    @Expose
+    val commentId: String? = null
+
 }

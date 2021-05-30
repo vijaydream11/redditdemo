@@ -11,4 +11,9 @@
     <color name="colorPrimary">#0CCDB4</color>
     <color name="colorPrimaryDark">#241F2C</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="colorReddit">#ff4500</color>
+
+
+
 </resources>

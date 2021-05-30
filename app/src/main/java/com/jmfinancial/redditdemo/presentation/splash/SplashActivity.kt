@@ -3,6 +3,8 @@ package com.jmfinancial.redditdemo.presentation.splash
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.View
 import com.jmfinancial.redditdemo.R
 import com.jmfinancial.redditdemo.presentation.base.BaseActivity
@@ -27,7 +29,10 @@ class SplashActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        Navigator.navigateToHome(this)
+        Handler(Looper.getMainLooper()).postDelayed({
+            Navigator.navigateToHome(this)
+        }, 3000)
+
 
     }
 

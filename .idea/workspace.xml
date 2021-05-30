@@ -21,6 +21,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b08362b-76c8-46a3-8d7e-bafe451ea755" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_upward.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reddit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -31,12 +36,31 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/data/network/CustomerService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/data/network/CustomerService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/login/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/login/HomeActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/login/model/RedditPost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/login/model/RedditPost.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/splash/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/splash/SplashActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/draw_facebook.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/draw_top_curved_bottomsheet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_google.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +131,9 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.jmfinancial.redditdemo.presentation.base" />
       <recent name="com.obhaiyya.health.presentation.history" />
@@ -237,10 +264,10 @@
       <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="581" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.929@0.23.1680.929" timestamp="1622308182080" />
-    <state x="588" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622308202336">
+    <state x="588" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622368018231">
       <screen x="0" y="23" width="1680" height="929" />
     </state>
-    <state x="588" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.929@0.23.1680.929" timestamp="1622308202336" />
+    <state x="588" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.929@0.23.1680.929" timestamp="1622368018231" />
     <state x="588" y="231" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.934@0.23.1680.934" timestamp="1622307063713" />
     <state x="569" y="264" width="568" height="429" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1621705301231">
       <screen x="0" y="23" width="1680" height="934" />
@@ -274,31 +301,31 @@
       <screen x="0" y="23" width="1680" height="926" />
     </state>
     <state width="410" height="466" key="DebuggerActiveHint/0.23.1680.926@0.23.1680.926" timestamp="1622316866863" />
-    <state width="1617" height="288" key="GridCell.Tab.0.bottom" timestamp="1622360687128">
+    <state width="1617" height="288" key="GridCell.Tab.0.bottom" timestamp="1622361070075">
       <screen x="0" y="23" width="1680" height="925" />
     </state>
-    <state width="1617" height="288" key="GridCell.Tab.0.bottom/0.23.1680.925@0.23.1680.925" timestamp="1622360687128" />
+    <state width="1617" height="288" key="GridCell.Tab.0.bottom/0.23.1680.925@0.23.1680.925" timestamp="1622361070075" />
     <state width="1617" height="233" key="GridCell.Tab.0.bottom/0.23.1680.926@0.23.1680.926" timestamp="1622317248479" />
     <state width="1617" height="233" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1622315078496" />
     <state width="1617" height="288" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1621707916975" />
-    <state width="1617" height="288" key="GridCell.Tab.0.center" timestamp="1622360687128">
+    <state width="1617" height="288" key="GridCell.Tab.0.center" timestamp="1622361070074">
       <screen x="0" y="23" width="1680" height="925" />
     </state>
-    <state width="1617" height="288" key="GridCell.Tab.0.center/0.23.1680.925@0.23.1680.925" timestamp="1622360687128" />
+    <state width="1617" height="288" key="GridCell.Tab.0.center/0.23.1680.925@0.23.1680.925" timestamp="1622361070074" />
     <state width="1617" height="233" key="GridCell.Tab.0.center/0.23.1680.926@0.23.1680.926" timestamp="1622317248478" />
     <state width="1617" height="233" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1622315078495" />
     <state width="1617" height="288" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1621707916974" />
-    <state width="1617" height="288" key="GridCell.Tab.0.left" timestamp="1622360687127">
+    <state width="1617" height="288" key="GridCell.Tab.0.left" timestamp="1622361070074">
       <screen x="0" y="23" width="1680" height="925" />
     </state>
-    <state width="1617" height="288" key="GridCell.Tab.0.left/0.23.1680.925@0.23.1680.925" timestamp="1622360687127" />
+    <state width="1617" height="288" key="GridCell.Tab.0.left/0.23.1680.925@0.23.1680.925" timestamp="1622361070074" />
     <state width="1617" height="233" key="GridCell.Tab.0.left/0.23.1680.926@0.23.1680.926" timestamp="1622317248478" />
     <state width="1617" height="233" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1622315078495" />
     <state width="1617" height="288" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1621707916973" />
-    <state width="1617" height="288" key="GridCell.Tab.0.right" timestamp="1622360687128">
+    <state width="1617" height="288" key="GridCell.Tab.0.right" timestamp="1622361070075">
       <screen x="0" y="23" width="1680" height="925" />
     </state>
-    <state width="1617" height="288" key="GridCell.Tab.0.right/0.23.1680.925@0.23.1680.925" timestamp="1622360687128" />
+    <state width="1617" height="288" key="GridCell.Tab.0.right/0.23.1680.925@0.23.1680.925" timestamp="1622361070075" />
     <state width="1617" height="233" key="GridCell.Tab.0.right/0.23.1680.926@0.23.1680.926" timestamp="1622317248478" />
     <state width="1617" height="233" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1622315078496" />
     <state width="1617" height="288" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1621707916974" />
@@ -350,14 +377,14 @@
     </state>
     <state x="674" y="281" key="refactoring.ChangeSignatureDialog/0.23.1680.926@0.23.1680.926" timestamp="1622316656022" />
     <state x="674" y="282" key="refactoring.ChangeSignatureDialog/0.23.1680.929@0.23.1680.929" timestamp="1622314781743" />
-    <state x="515" y="221" width="670" height="678" key="search.everywhere.popup" timestamp="1622360351600">
-      <screen x="0" y="23" width="1680" height="926" />
+    <state x="515" y="222" width="670" height="680" key="search.everywhere.popup" timestamp="1622368355347">
+      <screen x="0" y="23" width="1680" height="929" />
     </state>
     <state x="515" y="220" width="670" height="673" key="search.everywhere.popup/0.23.1680.920@0.23.1680.920" timestamp="1621441022566" />
-    <state x="515" y="221" width="670" height="676" key="search.everywhere.popup/0.23.1680.925@0.23.1680.925" timestamp="1621537372127" />
+    <state x="515" y="221" width="670" height="676" key="search.everywhere.popup/0.23.1680.925@0.23.1680.925" timestamp="1622363872488" />
     <state x="515" y="221" width="670" height="678" key="search.everywhere.popup/0.23.1680.926@0.23.1680.926" timestamp="1622360351600" />
-    <state x="515" y="222" width="670" height="680" key="search.everywhere.popup/0.23.1680.929@0.23.1680.929" timestamp="1622314917708" />
-    <state x="515" y="223" width="670" height="683" key="search.everywhere.popup/0.23.1680.934@0.23.1680.934" timestamp="1621706567227" />
+    <state x="515" y="222" width="670" height="680" key="search.everywhere.popup/0.23.1680.929@0.23.1680.929" timestamp="1622368355347" />
+    <state x="515" y="223" width="670" height="683" key="search.everywhere.popup/0.23.1680.934@0.23.1680.934" timestamp="1622367685927" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -371,16 +398,6 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/base/BaseActivity.kt</url>
           <line>110</line>
           <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/login/HomeActivity.kt</url>
-          <line>53</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/jmfinancial/redditdemo/presentation/login/HomeActivity.kt</url>
-          <line>57</line>
-          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
